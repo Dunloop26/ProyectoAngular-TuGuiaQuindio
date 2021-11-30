@@ -12,6 +12,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 
+html{
+	height: 100%;
+}
+
+body {
+	min-height: 100vh;
+	height: 0;
+}
+
+.full-height {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	height: 100%;
+}
+
 * {
 	font-family: 'MuseoModerno', cursive;
 }
